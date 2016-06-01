@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D42F7E61CFEE70D008C709E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D42F7E51CFEE70D008C709E /* main.m */; };
+		4D42F7E91CFEE70D008C709E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D42F7E81CFEE70D008C709E /* AppDelegate.m */; };
+		4D42F7EC1CFEE70D008C709E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D42F7EB1CFEE70D008C709E /* ViewController.m */; };
+		4D42F7EF1CFEE70D008C709E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D42F7ED1CFEE70D008C709E /* Main.storyboard */; };
+		4D42F7F11CFEE70D008C709E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D42F7F01CFEE70D008C709E /* Assets.xcassets */; };
+		4D42F7F41CFEE70D008C709E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D42F7F21CFEE70D008C709E /* LaunchScreen.storyboard */; };
+		4D42F7FE1CFEE740008C709E /* UIButton+JJSendCaptcha.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D42F7FD1CFEE740008C709E /* UIButton+JJSendCaptcha.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D42F7E11CFEE70D008C709E /* TestSendCaptcha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSendCaptcha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D42F7E51CFEE70D008C709E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D42F7E71CFEE70D008C709E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D42F7E81CFEE70D008C709E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D42F7EA1CFEE70D008C709E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D42F7EB1CFEE70D008C709E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D42F7EE1CFEE70D008C709E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D42F7F01CFEE70D008C709E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D42F7F31CFEE70D008C709E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D42F7F51CFEE70D008C709E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D42F7FC1CFEE740008C709E /* UIButton+JJSendCaptcha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+JJSendCaptcha.h"; sourceTree = "<group>"; };
+		4D42F7FD1CFEE740008C709E /* UIButton+JJSendCaptcha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JJSendCaptcha.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D42F7DE1CFEE70D008C709E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D42F7D81CFEE70D008C709E = {
+			isa = PBXGroup;
+			children = (
+				4D42F7E31CFEE70D008C709E /* TestSendCaptcha */,
+				4D42F7E21CFEE70D008C709E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D42F7E21CFEE70D008C709E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D42F7E11CFEE70D008C709E /* TestSendCaptcha.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D42F7E31CFEE70D008C709E /* TestSendCaptcha */ = {
+			isa = PBXGroup;
+			children = (
+				4D42F7E71CFEE70D008C709E /* AppDelegate.h */,
+				4D42F7E81CFEE70D008C709E /* AppDelegate.m */,
+				4D42F7EA1CFEE70D008C709E /* ViewController.h */,
+				4D42F7EB1CFEE70D008C709E /* ViewController.m */,
+				4D42F7FB1CFEE71B008C709E /* Helper */,
+				4D42F7ED1CFEE70D008C709E /* Main.storyboard */,
+				4D42F7F01CFEE70D008C709E /* Assets.xcassets */,
+				4D42F7F21CFEE70D008C709E /* LaunchScreen.storyboard */,
+				4D42F7F51CFEE70D008C709E /* Info.plist */,
+				4D42F7E41CFEE70D008C709E /* Supporting Files */,
+			);
+			path = TestSendCaptcha;
+			sourceTree = "<group>";
+		};
+		4D42F7E41CFEE70D008C709E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D42F7E51CFEE70D008C709E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D42F7FB1CFEE71B008C709E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4D42F7FC1CFEE740008C709E /* UIButton+JJSendCaptcha.h */,
+				4D42F7FD1CFEE740008C709E /* UIButton+JJSendCaptcha.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D42F7E01CFEE70D008C709E /* TestSendCaptcha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D42F7F81CFEE70D008C709E /* Build configuration list for PBXNativeTarget "TestSendCaptcha" */;
+			buildPhases = (
+				4D42F7DD1CFEE70D008C709E /* Sources */,
+				4D42F7DE1CFEE70D008C709E /* Frameworks */,
+				4D42F7DF1CFEE70D008C709E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestSendCaptcha;
+			productName = TestSendCaptcha;
+			productReference = 4D42F7E11CFEE70D008C709E /* TestSendCaptcha.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D42F7D91CFEE70D008C709E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = XiaoHaoJin;
+				TargetAttributes = {
+					4D42F7E01CFEE70D008C709E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 434KDURGB3;
+					};
+				};
+			};
+			buildConfigurationList = 4D42F7DC1CFEE70D008C709E /* Build configuration list for PBXProject "TestSendCaptcha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D42F7D81CFEE70D008C709E;
+			productRefGroup = 4D42F7E21CFEE70D008C709E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D42F7E01CFEE70D008C709E /* TestSendCaptcha */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D42F7DF1CFEE70D008C709E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D42F7F41CFEE70D008C709E /* LaunchScreen.storyboard in Resources */,
+				4D42F7F11CFEE70D008C709E /* Assets.xcassets in Resources */,
+				4D42F7EF1CFEE70D008C709E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D42F7DD1CFEE70D008C709E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D42F7EC1CFEE70D008C709E /* ViewController.m in Sources */,
+				4D42F7E91CFEE70D008C709E /* AppDelegate.m in Sources */,
+				4D42F7FE1CFEE740008C709E /* UIButton+JJSendCaptcha.m in Sources */,
+				4D42F7E61CFEE70D008C709E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D42F7ED1CFEE70D008C709E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D42F7EE1CFEE70D008C709E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D42F7F21CFEE70D008C709E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D42F7F31CFEE70D008C709E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D42F7F61CFEE70D008C709E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D42F7F71CFEE70D008C709E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D42F7F91CFEE70D008C709E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestSendCaptcha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaohaojin.TestSendCaptcha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D42F7FA1CFEE70D008C709E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestSendCaptcha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaohaojin.TestSendCaptcha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D42F7DC1CFEE70D008C709E /* Build configuration list for PBXProject "TestSendCaptcha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D42F7F61CFEE70D008C709E /* Debug */,
+				4D42F7F71CFEE70D008C709E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D42F7F81CFEE70D008C709E /* Build configuration list for PBXNativeTarget "TestSendCaptcha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D42F7F91CFEE70D008C709E /* Debug */,
+				4D42F7FA1CFEE70D008C709E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D42F7D91CFEE70D008C709E /* Project object */;
+}
